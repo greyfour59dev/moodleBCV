@@ -1,0 +1,45 @@
+# Ignore Moodle data directory (harus di luar root moodle)
+moodledata/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore config file (kalau tidak mau dishare)
+config.php
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore local IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore vendor if using composer (optional)
+vendor/
+
+# Ignore node_modules if using npm/yarn (optional)
+node_modules/
+
+# Ignore cache
+cache/
+localcache/
+sessions/
+temp/
+trashdir/
+
+# Git files
+*.orig
+
+# Ignore backup files
+backup/
+
+# Ignore PHPUnit cache
+.phpunit.result.cache
+
+blocks/*
+admin/tool/componentlibrary/*
