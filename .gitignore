@@ -1,6 +1,10 @@
 # Ignore Moodle data directory (harus di luar root moodle)
 moodledata/
 
+lib/
+
+.scannerwork/
+
 # Ignore system files
 .DS_Store
 Thumbs.db
